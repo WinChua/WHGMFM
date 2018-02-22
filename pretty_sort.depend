@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1519301942 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"show_array.hpp"
+	"sort_algo.hpp"
+
