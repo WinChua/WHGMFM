@@ -1,8 +1,15 @@
 # depslib dependency file v1.0
-1519301942 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\main.cpp
+1519459313 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\main.cpp
 	<iostream>
 	<algorithm>
 	<vector>
-	"show_array.hpp"
 	"sort_algo.hpp"
+
+1519458005 c:\users\winchua\desktop\pretty_sort\pretty_sort\include\sort_algo.hpp
+	"show_array.hpp"
+
+1519455728 c:\users\winchua\desktop\pretty_sort\pretty_sort\include\show_array.hpp
+	<iostream>
+
+1519459284 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\inverse.cpp
 

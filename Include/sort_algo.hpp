@@ -139,8 +139,41 @@ void generate_data(int *data, int size) {
     } while(size > 0);
     return;
 }
+
+
+
+void merge_sort_one(int *data1, int *data2, int *data, int size1, int size2) {
+    int *end1 = data1 + size1, *end2 = data2 + size2;
+    while(data1 != end1 && data2 != end2) {
+        if(*data1 < *data2) *data++ = *data1++;
+        else *data++ = *data2++;
+    }
+    while(data1 != end1) *data++ = *data1++;
+    while(data2 != end2) *data++ = *data2++;
+}
+
+
+void merge_sort_rec(int * data, int * tar, int size) {
+    if(size == 1) { *tar = *data; }
+    else {
+        int size1 = size / 2, size2 = size - size1;
+        merge_sort_rec(data, tar, size1);
+        merge_sort_rec(data + size1, tar + size1, size2);
+        merge_sort_one(tar, tar+size1, data, size1, size2);
+        copy(data, data+size, tar);
+    }
+    return;
+}
+
+void merge_sort(int *data, int size) {
+    int * tmp = new int[size];
+    merge_sort_rec(data, tmp, size);
+    delete[] tmp;
+    return;
+}
+
 void test_all_sort_algo() {
-    int size = 1000;
+    int size = 10;
     int data[size];
     cout << "the bubble sort " << endl;
     generate_data(data, size);
@@ -157,6 +190,9 @@ void test_all_sort_algo() {
     cout << "the heap_sort " << endl;
     generate_data(data, size);
     example_sort_algo(heap_sort, data, size);
+    cout << "the merge_sort " << endl;
+    generate_data(data, size);
+    example_sort_algo(merge_sort, data, size);
     system("pause");
 
 }

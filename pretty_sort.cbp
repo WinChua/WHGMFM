@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="Include/show_array.hpp" />
+		<Unit filename="Include/sort_algo.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="offer/solution.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
