@@ -4,12 +4,11 @@
 #include "Include/sort_algo.hpp"
 #include "Include/tencent/2017.hpp"
 int inver() ;
-
-void my_third();
 int main()
 {
 //     two();
-    my_third();
+//    my_third();
+sum_prime();
 //    third();
 //    test_all_sort_algo();
 //    cout << inver() << endl;

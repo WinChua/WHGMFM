@@ -35,8 +35,11 @@
 		<Unit filename=".gitignore" />
 		<Unit filename="Include/show_array.hpp" />
 		<Unit filename="Include/sort_algo.hpp" />
+		<Unit filename="Include/tencent/2017.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="offer/solution.hpp" />
+		<Unit filename="tencent/fall2017.cpp" />
+		<Unit filename="tencent/one.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1519910534 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\main.cpp
+1519960677 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\main.cpp
 	<iostream>
 	<algorithm>
 	<vector>
@@ -14,9 +14,9 @@
 
 1519459284 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\inverse.cpp
 
-1519910192 c:\users\winchua\desktop\pretty_sort\pretty_sort\include\tencent\2017.hpp
+1519960685 c:\users\winchua\desktop\pretty_sort\pretty_sort\include\tencent\2017.hpp
 
-1519911919 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\tencent\one.cpp
+1519914419 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\tencent\one.cpp
 	<iostream>
 	<string>
 	<vector>
@@ -25,4 +25,10 @@
 	<algorithm>
 	<set>
 	<fstream>
+
+1519960594 source:c:\users\winchua\desktop\pretty_sort\pretty_sort\tencent\fall2017.cpp
+	<string>
+	<iostream>
+	<vector>
+	<algorithm>
 
